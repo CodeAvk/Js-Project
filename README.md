@@ -4,7 +4,7 @@
 
 ## Deployed Link
 ```
-(https://parcelmanagementsystem.netlify.app/)
+https://parcelmanagementsystem.netlify.app/
 ```
 
 
