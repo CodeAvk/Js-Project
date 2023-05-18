@@ -1,0 +1,139 @@
+body {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  background-color: #fbb034;
+  background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+  margin: 5px;
+  padding: 10px 20px;
+  border: 2px solid black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.3s;
+}
+
+.button:hover {
+  background-color: #f5d020;
+  background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+  color: black;
+}
+
+.regions-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.region-header {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.mumbai {
+  /* background-color: red; */
+  background-color: #3f0d12;
+  background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+}
+
+.delhi {
+  /* background-color: yellow; */
+  background-color: #fbb034;
+  background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+}
+
+.kolkata {
+  /* background-color: blue; */
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+
+.parcels-container {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+.parcels-group {
+  display: flex;
+}
+
+.group-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+
+.parcel {
+  border: 1px solid white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 11%;
+}
+
+.mumbai {
+  background-color: #3f0d12;
+  background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+}
+
+.delhi {
+  background-color: #fbb034;
+  background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+}
+
+.kolkata {
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+
+.selected {
+  background-color: yellow;
+}
+
+.button {
+  background-color: yellow;
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: fixed;
+  top: 80%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.square {
+  width: 100px;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}

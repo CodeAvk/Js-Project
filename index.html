@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="header">
+    <h1>Parcel Management</h1>
+  </div>
+  <div class="regions-header">
+    <div class="region-header mumbai">Mumbai</div>
+    <div class="region-header delhi">Delhi</div>
+    <div class="region-header kolkata">Kolkata</div>
+  </div>
+  <div class="parcels-container" id="parcels-container"></div>
+  <div class="group-header" id="selected-parcel">Selected parcel:</div>
+
+  <div class="actions">
+    <input type="text" id="name-input" placeholder="Enter parcel name">
+    <select id="group-select">
+      <option value="">Select group</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Delhi">Delhi</option>
+      <option value="Kolkata">Kolkata</option>
+    </select>
+  </div>
+  <div class="container">
+    <div class="square" style="background-color: #3f0d12; background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31
+      74%);">Mumbai</div>
+    <div class="square" style="background-color: #2a2a72;   background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    ">Kolkata</div>
+    <div class="square"
+      style="background-color: #fbb034; background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);">Delhi</div>
+  </div>
+  <div class="button-container">
+    <button id="add-after-btn" class="button">Add After</button>
+    <button id="add-before-btn" class="button">Add Before</button>
+    <button id="replace-btn" class="button">Replace</button>
+    <button id="delete-btn" class="button">Delete</button>
+    <button id="refresh-btn" class="button">Refresh</button>
+    <button id="show-final-btn" class="button">Show Final</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
